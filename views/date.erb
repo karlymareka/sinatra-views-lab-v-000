@@ -6,7 +6,7 @@ require 'date'
     </head>
     <body>
         <h1>Today</h1>
-        <% date=Date.today %>
+        <% date=Time.now %>
         <p>The date is <%=date.strftime(%A, %B %e, %Y) %></p>
     </body>
 </html>
